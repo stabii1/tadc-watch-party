@@ -24,8 +24,46 @@ p, a {
 
 .maintitle {
   font-size: 72px;
+  text-transform: uppercase;
+  line-height: 1;
 }
 
 .subtitle {
   font-size: 36px;
+  line-height: 1;
+}
+
+header {
+  background: linear-gradient(to right, #101085, #1b86cc);
+  padding: 1rem 0;
+}
+
+.links {
+  display: flex;
+  justify-content:flex-end;
+  padding: 0 40px;
+  gap: 2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content:flex-start;
+  padding: 0 40px;
+  gap: 2rem;
+}
+
+a:link {
+  color:#bbbbbb;
+}
+
+a:visited {
+  color: #1b1a16;
+}
+
+a:hover {
+  color:  #f8f9fc;
+}
+
+a:active {
+  color: #ffe900;
 }
