@@ -4,6 +4,7 @@
 }
 
 html {
+  background-color: #f8f9fc;
   color: #222;
   line-height: 1.4;
   font-size: 16pt;
@@ -23,18 +24,18 @@ p, a {
 }
 
 .intro {
-  display: flexbox;
   width: auto;
-  height: 15rem;
-  background-image: ("./assets/background-ena.gif");
-  background-color: white;
+  height: 16rem;
+  background-image: linear-gradient(to bottom right, rgb(248, 249, 252),  rgba(0, 0, 0, 0)), url("./assets/background-ena.gif");
 }
 
 .maintitle {
   font-size: 400%;
   text-transform: uppercase;
-  line-height: 1;
-  padding: 0 0 0 1rem;
+  padding: 1rem;
+  flex-wrap: wrap
+  margin: 0;
+  -webkit-text-stroke: 1px #f8f9fc;
 }
 
 .subtitle {
