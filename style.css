@@ -26,7 +26,9 @@ p, a {
 .intro {
   width: auto;
   height: 16rem;
-  background-image: linear-gradient(to bottom right, rgb(248, 249, 252), rgb(248, 249, 252),  rgba(0, 0, 0, 0)), url("./assets/background-ena.gif");
+  background-image: linear-gradient(to right, rgb(248, 249, 252), rgb(248, 249, 252),  rgba(0, 0, 0, 0)), url("./assets/background-ena.gif");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .maintitle {
