@@ -9,7 +9,23 @@ html {
   font-size: 16pt;
 }
 
+h1, h2 {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+p, a {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.maintitle {
+  font-size: 72px;
+}
 
-
+.subtitle {
+  font-size: 36px;
+}
