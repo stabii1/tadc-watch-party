@@ -22,15 +22,26 @@ p, a {
   font-style: normal;
 }
 
+.intro {
+  display: flexbox;
+  width: auto;
+  height: 15rem;
+  background-image: ("./assets/background-ena.gif");
+  background-color: white;
+}
+
 .maintitle {
-  font-size: 72px;
+  font-size: 400%;
   text-transform: uppercase;
   line-height: 1;
+  padding: 0 0 0 1rem;
 }
 
 .subtitle {
   font-size: 36px;
   line-height: 1;
+  padding: 0 1rem;
+  max-width: 700px;
 }
 
 header {
@@ -53,6 +64,20 @@ nav {
   gap: 2rem;
 }
 
+.events {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 5rem;
+}
+
+.event-card {
+  background: #bbbbbb;
+  padding: 1.5rem;
+  max-width: 15rem;
+  box-shadow: 0 0 15px #1b1a16;
+}
+
 a:link {
   color:#bbbbbb;
 }
@@ -67,4 +92,12 @@ a:hover {
 
 a:active {
   color: #ffe900;
+}
+
+footer {
+  background: linear-gradient(to right, #101085, #1b86cc);
+  padding: 1rem;
+  color: #f8f9fc;
+  display: grid;
+  text-align: center;
 }
