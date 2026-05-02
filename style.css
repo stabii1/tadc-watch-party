@@ -81,9 +81,9 @@ nav {
 }
 
 .events img {
-  width: 15rem;
-  height: 10rem;
-  margin: -1.5rem -1.5rem 0rem;
+  height: auto;
+  max-width: 18rem;
+  margin: -1.5rem -1.5rem 1rem;
 }
 
 .ena-section {
