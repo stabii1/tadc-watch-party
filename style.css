@@ -77,9 +77,9 @@ nav {
 .links {
   display: flex;
   justify-content: center;
+  padding: 2.5rem 0rem;
   font-size: 125%;
-  padding: 2rem;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .events {
@@ -200,4 +200,44 @@ footer {
   color: #f8f9fc;
   display: grid;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12pt;
+  }
+  .maintitle {
+    font-size: 350%;
+    text-transform: uppercase;
+    padding: 0 1.5rem;
+    flex-wrap: wrap
+  }
+  .subtitle {
+    font-size: 125%
+    line-height: 1;
+    padding: 0rem 1rem;
+    max-width: 700px;
+    flex-wrap: wrap;
+  }
+  .intro {
+    background-image: linear-gradient(to right, rgb(248, 249, 252),  rgba(0, 0, 0, 0)), url("./assets/background-ena.gif");
+    background-position: center;
+  }
+  .events {
+    display: inline-block;
+    padding: 4rem 0rem 4rem 6rem;
+    max-width: 18rem;
+  }
+  .event-card {
+    max-width: 20rem;
+    margin: 1rem;
+  }
+
+  .events img {
+    height: auto;
+    min-width: 16rem;
+    max-height: 10rem;
+    object-fit: cover;
+    margin: -1.5rem -1.5rem 1rem;
+  }
 }
