@@ -104,8 +104,9 @@ nav {
 
 .schedule-title {
   display: flex;
+  justify-content: center;
   font-size: 300%;
-  padding: 1rem;
+  padding: 0rem 5rem;
   text-decoration: underline;
   text-decoration-style: dashed;
   text-underline-offset: 8px;
