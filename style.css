@@ -80,6 +80,21 @@ nav {
   box-shadow: 0 0 15px #1b1a16;
 }
 
+.schedule {
+  margin: 1rem;
+  height: 500px;
+  width: 20rem;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 2fr;
+}
+
+.item {
+  margin: 1rem;
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 a:link {
   color:#bbbbbb;
 }
